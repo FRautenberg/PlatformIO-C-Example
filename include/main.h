@@ -9,7 +9,8 @@
         uint8_t speed;
         bool isFlying;
     } TPlane;
-    TPlane *plane;    // Global varible, which gets declared here and initialised later
 
+    extern uint8_t altitude;       //Global variable and not a pointer, they have to be named in Header but defined in .cpp
+    TPlane *plane;    // Global varible, which gets declared here and initialised later
     ledController *ledIsFlying;
 #endif

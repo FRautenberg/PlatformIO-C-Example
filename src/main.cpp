@@ -5,6 +5,7 @@
 #include "planeFunc.h"  //Own Libary to add Functions to the main, Location: /include/planeFunc.h
 
 // This example shows a plane with parameters and their functions to operate
+uint8_t altitude = 2000;  // Define globale variable value in .cpp, but declare in .h 
 
 void setup(void)
 {
